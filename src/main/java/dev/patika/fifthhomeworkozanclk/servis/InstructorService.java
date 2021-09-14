@@ -19,11 +19,13 @@ import dev.patika.fifthhomeworkozanclk.mapper.InstructorMapper;
 import dev.patika.fifthhomeworkozanclk.repository.InstructorRepository;
 import dev.patika.fifthhomeworkozanclk.repository.SalaryOperationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
@@ -100,15 +102,13 @@ public class InstructorService implements BaseService<InstructorDTO> {
                 salaryOperationRepository.updatePermanentSalary(instructorId, salaryCalculated);
 
 
-                salaryOperationEntity = SalaryOperationEntity.builder()
-                        .id(instructorId)
-                        .previousSalary(fixedSalary)
-                        .salaryAfterUpdate(salaryCalculated)
-                        .salaryUpdatePercentage(adjustmentPercentage)
-                        .clientIpAdress(request.getRemoteAddr())
-                        .clientUrl(request.getRequestURI())
-                        .sessionActivityId(request.getSession().getId())
-                        .requestDate(LocalDate.now()).build();
+                salaryOperationEntity = SalaryOperationEntity.builder().instructorId(instructorId).previousSalary(fixedSalary)
+                                                                        .salaryAfterUpdate(salaryCalculated)
+                                                                        .salaryUpdatePercentage(adjustmentPercentage)
+                                                                        .clientIpAdress(request.getRemoteAddr())
+                                                                        .clientUrl(request.getRequestURI())
+                                                                        .sessionActivityId(request.getSession().getId())
+                                                                        .requestDate(LocalDate.now()).build();
 
                 salaryOperationRepository.save(salaryOperationEntity);
 
@@ -125,7 +125,7 @@ public class InstructorService implements BaseService<InstructorDTO> {
 
 
                 salaryOperationEntity = SalaryOperationEntity.builder()
-                        .id(instructorId)
+                        .instructorId(instructorId)
                         .previousSalary(hourlySalary)
                         .salaryAfterUpdate(salaryCalculated)
                         .salaryUpdatePercentage(adjustmentPercentage)
@@ -166,4 +166,11 @@ public class InstructorService implements BaseService<InstructorDTO> {
     }
 
 
+    public SalaryOperationEntity getSalaryAdjustmentWithInstructorId(long instructorId) {
+        return salaryOperationRepository.findByInstructorId(instructorId);
+    }
+
+    public Optional<List<SalaryOperationEntity>> getSalaryAdjustmentWithDateRange(String startDate, String endDate) {
+        return salaryOperationRepository.findSalaryAdjustmentByDateRange(startDate, endDate);
+    }
 }
