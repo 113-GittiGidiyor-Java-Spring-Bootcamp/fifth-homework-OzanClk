@@ -8,16 +8,16 @@ package dev.patika.fifthhomeworkozanclk.servis;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import dev.patika.fifthhomeworkapplication.dto.InstructorDTO;
-import dev.patika.fifthhomeworkapplication.entity.Instructor;
-import dev.patika.fifthhomeworkapplication.entity.PermanentInstructor;
-import dev.patika.fifthhomeworkapplication.entity.SalaryOperationEntity;
-import dev.patika.fifthhomeworkapplication.entity.VisitingResearcher;
-import dev.patika.fifthhomeworkapplication.exceptions.InstructorIsAlreadyExistException;
-import dev.patika.fifthhomeworkapplication.exceptions.InstructorIsNotExist;
-import dev.patika.fifthhomeworkapplication.mapper.InstructorMapper;
-import dev.patika.fifthhomeworkapplication.repository.InstructorRepository;
-import dev.patika.fifthhomeworkapplication.repository.SalaryOperationRepository;
+import dev.patika.fifthhomeworkozanclk.dto.InstructorDTO;
+import dev.patika.fifthhomeworkozanclk.entity.Instructor;
+import dev.patika.fifthhomeworkozanclk.entity.PermanentInstructor;
+import dev.patika.fifthhomeworkozanclk.entity.SalaryOperationEntity;
+import dev.patika.fifthhomeworkozanclk.entity.VisitingResearcher;
+import dev.patika.fifthhomeworkozanclk.exceptions.InstructorIsAlreadyExistException;
+import dev.patika.fifthhomeworkozanclk.exceptions.InstructorIsNotExist;
+import dev.patika.fifthhomeworkozanclk.mapper.InstructorMapper;
+import dev.patika.fifthhomeworkozanclk.repository.InstructorRepository;
+import dev.patika.fifthhomeworkozanclk.repository.SalaryOperationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

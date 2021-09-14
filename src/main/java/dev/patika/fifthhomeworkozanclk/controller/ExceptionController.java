@@ -1,8 +1,8 @@
 package dev.patika.fifthhomeworkozanclk.controller;
 
 
-import dev.patika.fifthhomeworkapplication.entity.ApplicationErrorsResponseEntity;
-import dev.patika.fifthhomeworkapplication.servis.ExceptionService;
+import dev.patika.fifthhomeworkozanclk.entity.ApplicationErrorsResponseEntity;
+import dev.patika.fifthhomeworkozanclk.servis.ExceptionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

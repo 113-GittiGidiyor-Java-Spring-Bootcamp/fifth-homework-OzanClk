@@ -8,11 +8,11 @@
 package dev.patika.fifthhomeworkozanclk.servis;
 
 
-import dev.patika.fifthhomeworkapplication.dto.StudentDTO;
-import dev.patika.fifthhomeworkapplication.entity.Student;
-import dev.patika.fifthhomeworkapplication.exceptions.StudentAgeNotValidException;
-import dev.patika.fifthhomeworkapplication.mapper.StudentMapper;
-import dev.patika.fifthhomeworkapplication.repository.StudentRepository;
+import dev.patika.fifthhomeworkozanclk.dto.StudentDTO;
+import dev.patika.fifthhomeworkozanclk.entity.Student;
+import dev.patika.fifthhomeworkozanclk.exceptions.StudentAgeNotValidException;
+import dev.patika.fifthhomeworkozanclk.mapper.StudentMapper;
+import dev.patika.fifthhomeworkozanclk.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

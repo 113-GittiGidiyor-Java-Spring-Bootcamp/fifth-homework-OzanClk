@@ -1,7 +1,7 @@
 package dev.patika.fifthhomeworkozanclk.config;
 
 
-import dev.patika.fifthhomeworkapplication.util.ClientRequestInfo;
+import dev.patika.fifthhomeworkozanclk.util.ClientRequestInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

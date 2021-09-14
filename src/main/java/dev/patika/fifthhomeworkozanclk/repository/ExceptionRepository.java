@@ -1,6 +1,6 @@
 package dev.patika.fifthhomeworkozanclk.repository;
 
-import dev.patika.fifthhomeworkapplication.entity.ApplicationErrorsResponseEntity;
+import dev.patika.fifthhomeworkozanclk.entity.ApplicationErrorsResponseEntity;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

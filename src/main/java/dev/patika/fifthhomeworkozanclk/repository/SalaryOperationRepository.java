@@ -1,6 +1,6 @@
 package dev.patika.fifthhomeworkozanclk.repository;
 
-import dev.patika.fifthhomeworkapplication.entity.SalaryOperationEntity;
+import dev.patika.fifthhomeworkozanclk.entity.SalaryOperationEntity;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

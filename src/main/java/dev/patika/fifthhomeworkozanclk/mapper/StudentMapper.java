@@ -1,8 +1,8 @@
 package dev.patika.fifthhomeworkozanclk.mapper;
 
 
-import dev.patika.fifthhomeworkapplication.dto.StudentDTO;
-import dev.patika.fifthhomeworkapplication.entity.Student;
+import dev.patika.fifthhomeworkozanclk.dto.StudentDTO;
+import dev.patika.fifthhomeworkozanclk.entity.Student;
 import org.mapstruct.Mapper;
 
 

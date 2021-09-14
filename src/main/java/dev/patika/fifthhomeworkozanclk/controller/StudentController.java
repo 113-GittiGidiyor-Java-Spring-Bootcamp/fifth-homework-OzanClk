@@ -1,9 +1,9 @@
 package dev.patika.fifthhomeworkozanclk.controller;
 
 
-import dev.patika.fifthhomeworkapplication.dto.StudentDTO;
-import dev.patika.fifthhomeworkapplication.entity.Student;
-import dev.patika.fifthhomeworkapplication.servis.StudentService;
+import dev.patika.fifthhomeworkozanclk.dto.StudentDTO;
+import dev.patika.fifthhomeworkozanclk.entity.Student;
+import dev.patika.fifthhomeworkozanclk.servis.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

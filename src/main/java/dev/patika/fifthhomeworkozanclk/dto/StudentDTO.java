@@ -1,7 +1,7 @@
 package dev.patika.fifthhomeworkozanclk.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import dev.patika.fifthhomeworkapplication.entity.enumeration.Gender;
+import dev.patika.fifthhomeworkozanclk.entity.enumeration.Gender;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;

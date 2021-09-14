@@ -1,7 +1,7 @@
 package dev.patika.fifthhomeworkozanclk.repository;
 
 
-import dev.patika.fifthhomeworkapplication.entity.Instructor;
+import dev.patika.fifthhomeworkozanclk.entity.Instructor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

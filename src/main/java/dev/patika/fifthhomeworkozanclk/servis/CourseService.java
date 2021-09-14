@@ -6,14 +6,14 @@
 
 package dev.patika.fifthhomeworkozanclk.servis;
 
-import dev.patika.fifthhomeworkapplication.dto.CourseDTO;
-import dev.patika.fifthhomeworkapplication.entity.Course;
-import dev.patika.fifthhomeworkapplication.entity.Student;
-import dev.patika.fifthhomeworkapplication.exceptions.CourseAlreadyExistsException;
-import dev.patika.fifthhomeworkapplication.exceptions.StudentNumberForOneCourseExceededException;
-import dev.patika.fifthhomeworkapplication.mapper.CourseMapper;
-import dev.patika.fifthhomeworkapplication.repository.CourseRepository;
-import dev.patika.fifthhomeworkapplication.repository.StudentRepository;
+import dev.patika.fifthhomeworkozanclk.dto.CourseDTO;
+import dev.patika.fifthhomeworkozanclk.entity.Course;
+import dev.patika.fifthhomeworkozanclk.entity.Student;
+import dev.patika.fifthhomeworkozanclk.exceptions.CourseAlreadyExistsException;
+import dev.patika.fifthhomeworkozanclk.exceptions.StudentNumberForOneCourseExceededException;
+import dev.patika.fifthhomeworkozanclk.mapper.CourseMapper;
+import dev.patika.fifthhomeworkozanclk.repository.CourseRepository;
+import dev.patika.fifthhomeworkozanclk.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

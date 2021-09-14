@@ -1,11 +1,11 @@
 package dev.patika.fifthhomeworkozanclk.mapper;
 
 
-import dev.patika.fifthhomeworkapplication.dto.CourseDTO;
-import dev.patika.fifthhomeworkapplication.entity.Course;
-import dev.patika.fifthhomeworkapplication.servis.CourseService;
-import dev.patika.fifthhomeworkapplication.servis.InstructorService;
-import dev.patika.fifthhomeworkapplication.servis.StudentService;
+import dev.patika.fifthhomeworkozanclk.dto.CourseDTO;
+import dev.patika.fifthhomeworkozanclk.entity.Course;
+import dev.patika.fifthhomeworkozanclk.servis.CourseService;
+import dev.patika.fifthhomeworkozanclk.servis.InstructorService;
+import dev.patika.fifthhomeworkozanclk.servis.StudentService;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
 package dev.patika.fifthhomeworkozanclk.entity;
 
 
-import dev.patika.fifthhomeworkapplication.entity.enumeration.Gender;
+import dev.patika.fifthhomeworkozanclk.entity.enumeration.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

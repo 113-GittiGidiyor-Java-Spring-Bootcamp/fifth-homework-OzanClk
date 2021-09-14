@@ -1,6 +1,6 @@
 package dev.patika.fifthhomeworkozanclk.repository;
 
-import dev.patika.fifthhomeworkapplication.entity.Student;
+import dev.patika.fifthhomeworkozanclk.entity.Student;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

@@ -6,8 +6,8 @@
 
 package dev.patika.fifthhomeworkozanclk.servis;
 
-import dev.patika.fifthhomeworkapplication.entity.ApplicationErrorsResponseEntity;
-import dev.patika.fifthhomeworkapplication.repository.ExceptionRepository;
+import dev.patika.fifthhomeworkozanclk.entity.ApplicationErrorsResponseEntity;
+import dev.patika.fifthhomeworkozanclk.repository.ExceptionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

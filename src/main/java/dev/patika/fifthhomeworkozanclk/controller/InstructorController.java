@@ -1,10 +1,10 @@
 package dev.patika.fifthhomeworkozanclk.controller;
 
 
-import dev.patika.fifthhomeworkapplication.dto.InstructorDTO;
-import dev.patika.fifthhomeworkapplication.entity.Instructor;
-import dev.patika.fifthhomeworkapplication.servis.InstructorService;
-import dev.patika.fifthhomeworkapplication.util.ClientRequestInfo;
+import dev.patika.fifthhomeworkozanclk.dto.InstructorDTO;
+import dev.patika.fifthhomeworkozanclk.entity.Instructor;
+import dev.patika.fifthhomeworkozanclk.servis.InstructorService;
+import dev.patika.fifthhomeworkozanclk.util.ClientRequestInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
